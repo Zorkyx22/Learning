@@ -185,9 +185,9 @@ This means that, as a development user, we only have to use `az login` as shown 
 Now, __if you followed along with the example__ you should __delete your resource group__. This will destroy the keyvault we created together and stop you from incurring unwanted charges to your account.
 
 ### Why is the secrets manager the best option in many cases?
-Let's start out and say that the best secrets management strategy is the one that gets your team the best security. Maybe that's environment injection. Maybe that's Application Injection like with Azure Key Vault. All in all, you have to choose which one is best for you.
+Let's start out and say that the best secrets management strategy is the one that best fit your team's security requirements. Maybe that's environment injection. Maybe that's Application Injection like with Azure Key Vault. There is no solution that is right for every team.
 
-Secrets Managers are often the best solution because they handle really well different environments and rotating keys. However, in an embedded systems development context for instance, they can't really be used, so environment injection could be your best bet!
+Secrets Managers are often the best solution because they let us rotate the secrest centrally very easily, which is a must in many production environements!
 
 
 
